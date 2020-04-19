@@ -1,0 +1,28 @@
+body {
+  font-family: "open-sans", sans-serif;
+}
+.g_container {
+  max-width: 767px;
+  margin: 0 auto;
+}
+
+.text_center {
+  text-align: center;
+}
+
+.g_row {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+.g_column {
+  flex-basis: 100%;
+  -ms-flex: auto;
+  box-sizing: border-box;
+  padding: 10px;
+}
